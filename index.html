@@ -2,50 +2,36 @@
 <html lang="en">
 
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Goutham | Portfolio</title>
+<title>Goutham S | Portfolio</title>
 
 <style>
 
 body{
 margin:0;
 font-family:Segoe UI;
-background:linear-gradient(135deg,#0f172a,#020617);
+background:linear-gradient(120deg,#0f3d2e,#14532d,#064e3b);
 color:white;
 }
 
 header{
 text-align:center;
-padding:100px 20px;
+padding:110px 20px;
+background:rgba(0,0,0,0.25);
 }
 
 header h1{
 font-size:60px;
 margin:0;
+letter-spacing:2px;
 }
 
 header p{
 font-size:20px;
-color:#94a3b8;
+color:#d1fae5;
 margin-top:10px;
-}
-
-.button{
-background:#38bdf8;
-color:black;
-padding:12px 24px;
-border-radius:8px;
-text-decoration:none;
-font-weight:bold;
-display:inline-block;
-margin-top:20px;
-}
-
-.button:hover{
-background:#0ea5e9;
 }
 
 section{
@@ -56,20 +42,30 @@ padding:50px 20px;
 
 h2{
 text-align:center;
-margin-bottom:30px;
+margin-bottom:35px;
+color:#a7f3d0;
+}
+
+.about{
+text-align:center;
+max-width:750px;
+margin:auto;
+line-height:1.6;
+color:#ecfdf5;
 }
 
 .skills{
 display:flex;
 flex-wrap:wrap;
 justify-content:center;
-gap:10px;
+gap:12px;
 }
 
 .skill{
-background:#1e293b;
-padding:10px 18px;
-border-radius:20px;
+background:rgba(255,255,255,0.12);
+padding:10px 20px;
+border-radius:25px;
+backdrop-filter:blur(6px);
 }
 
 .projects{
@@ -79,23 +75,32 @@ gap:20px;
 }
 
 .card{
-background:#1e293b;
+background:rgba(255,255,255,0.12);
 padding:25px;
 border-radius:12px;
+backdrop-filter:blur(8px);
 transition:0.3s;
 }
 
 .card:hover{
-transform:translateY(-8px);
-box-shadow:0 10px 20px rgba(0,0,0,0.5);
+transform:translateY(-10px);
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
+
+.card h3{
+margin-top:0;
+color:#bbf7d0;
+}
+
+.contact{
+text-align:center;
 }
 
 footer{
 text-align:center;
-padding:30px;
-background:#020617;
-margin-top:40px;
-color:#94a3b8;
+padding:25px;
+background:rgba(0,0,0,0.35);
+color:#d1fae5;
 }
 
 </style>
@@ -106,11 +111,8 @@ color:#94a3b8;
 
 <header>
 
-<h1>Goutham</h1>
-
+<h1>Goutham S</h1>
 <p>AI & Computer Vision Engineer</p>
-
-<a class="button" href="https://github.com/GOWTHAMQ123">View My GitHub</a>
 
 </header>
 
@@ -118,9 +120,10 @@ color:#94a3b8;
 
 <h2>About Me</h2>
 
-<p style="text-align:center;max-width:700px;margin:auto;">
+<p class="about">
 Computer Science Engineer passionate about Artificial Intelligence,
-Computer Vision and IoT systems.
+Computer Vision and IoT systems. Currently working on AI detection systems
+and smart monitoring solutions.
 </p>
 
 </section>
@@ -152,29 +155,37 @@ Computer Vision and IoT systems.
 
 <div class="card">
 <h3>Railway Crack Detection</h3>
-<p>IoT based railway safety system detecting cracks and obstacles.</p>
+<p>IoT based railway safety system detecting cracks, fire and obstacles.</p>
 </div>
 
 <div class="card">
-<h3>Wildlife Ticket Booking</h3>
-<p>Web system for wildlife monitoring and ticket booking.</p>
+<h3>Wildlife Ticket Booking System</h3>
+<p>Web based application for wildlife monitoring and ticket booking.</p>
 </div>
 
 <div class="card">
 <h3>YOLOv8 Object Detection</h3>
-<p>Deep learning model for surveillance detection.</p>
+<p>Deep learning based real time surveillance detection system.</p>
 </div>
 
 </div>
 
 </section>
 
+<section class="contact">
+
+<h2>Contact</h2>
+
+<p>Email: goutham3379@gmail.com</p>
+<p>Phone: +91 9620373379</p>
+
+</section>
+
 <footer>
 
-<p>© 2026 Goutham Portfolio</p>
+<p>© 2026 Goutham S Portfolio</p>
 
 </footer>
 
 </body>
-
 </html>
